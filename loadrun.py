@@ -6,6 +6,7 @@ global program_text
 program_text=[]
 def load(file_name):
 	global program_text
+	program_text = ''
 	f=open(file_name,'r')
 	read_text = f.readlines()
 	for line in read_text:
